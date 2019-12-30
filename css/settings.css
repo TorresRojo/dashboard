@@ -1,0 +1,31 @@
+/*-----------------------------------------------------------------------------
+ESTILOS BASE TIPOGRAFÍA | VARIABLES |
+--------------------------------------------------------------------------------*/
+
+
+
+:root {
+    --maxlayout: 1920px;
+    --layout: 1440px;
+    --layout1230: 1230px;
+    --layout1170: 1170px;
+    --layout990: 990px;
+    --layout750: 750px;
+    --bluesolid: #323e48;
+    --blueaqua: #6fb3bc;
+    --white: #ffffff;
+    --grey: #e7e7e7;
+    --greymid: #959494;
+    --darkgrey: #666666;
+
+  }
+
+* {box-sizing: border-box;font-family: 'Poppins', sans-serif;}
+
+html {scroll-behavior: smooth;}
+body {margin: 0; padding: 0; }
+
+p, input, label, textarea{font-family: 'Poppins', sans-serif;}
+p{margin: 0;}
+li {list-style: none; font-family: 'Poppins', sans-serif;}
+a {text-decoration: none;font-family: 'Poppins', sans-serif; color: var(--white);}

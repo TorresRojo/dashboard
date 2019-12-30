@@ -9,12 +9,11 @@ ESTILOS DE RETICULA
 
 .g-maxlayout{max-width: var(--maxlayout); width: 100%; margin: auto; }
 .g-layout{max-width: var(--layout); width: 100%; margin: auto; padding: 0 20px;}
-.g-layout-box{max-width: var(--layoutbox); width: 100%; margin: auto;}
+.g-layout-1230{max-width: var(--layout1230); width: 100%; margin: auto; padding: 0 20px;}
 
-.g-layout-1179{max-width: var(--layout1179); width: 100%; margin: auto; padding: 0 20px;}
-.g-layout-1159{max-width: var(--layout1159); width: 100%; margin: auto; }
-.g-layout-930{max-width: var(--layout930); width: 100%; margin: auto; padding: 0 20px;}
-.g-layout-703{max-width: var(--layout703); width: 100%; margin: auto;}
+.g-layout-1170{max-width: var(--layout1170); width: 100%; margin: auto; padding: 0 20px;}
+.g-layout-990{max-width: var(--layout990); width: 100%; margin: auto; padding: 0 20px;}
+.g-layout-750{max-width: var(--layout750); width: 100%; margin: auto; padding: 0 20px;}
 .g-100{width: 100%;}
 
 /*//////////////////////////////////////////////////

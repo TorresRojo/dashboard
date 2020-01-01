@@ -77,12 +77,6 @@ Side bar
   background-color: $darkblue;
   grid-column: 1 / 2;
   grid-row: 1 / 4;
-  @media (max-width: 1024px){
-    .l-sidebar__menu,
-    .l-sidebar__profile{
-      display: none;
-    }
-  }
     &__menu{
       cursor: pointer;
       fill: White;
@@ -108,6 +102,17 @@ Side bar
     &__content{
 
     }
+    }
+    @media (max-width: 1024px){
+      .l-sidebar__menu,
+      .l-profile__data{
+        display: none;
+      }
+      img{
+        width: 70px;
+        height: 70px;
+        border: 4px solid #242a40;
+      }
     }
 }
 

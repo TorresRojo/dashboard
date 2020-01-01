@@ -1,5 +1,10 @@
 @import "settings.css";
 @import "utilidades.css";
+.e-card, .l-dashboard__content .l-cards__box {
+  border-radius: 7px;
+  background-color: #141928;
+}
+
 /*****************************************
 Dashboard main
 ******************************************/
@@ -16,6 +21,7 @@ Dashboard main
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 0 20px;
 }
 .l-dashboard__head input {
   background-color: #141928;
@@ -24,6 +30,21 @@ Dashboard main
   color: white;
   border: none;
   padding: 2px 10px;
+  height: 40px;
+}
+.l-dashboard__content {
+  grid-column: 2/3;
+  grid-row: 2/4;
+  padding: 20px;
+}
+.l-dashboard__content .l-cards__item {
+  height: 80px;
+  width: calc(100% / 3);
+}
+.l-dashboard__content .l-cards__box {
+  width: 90%;
+  margin: auto;
+  height: 100%;
 }
 
 /******************************************

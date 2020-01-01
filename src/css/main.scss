@@ -38,10 +38,6 @@ Dashboard main
 }
 
 
-/*///Modificador de grid ////*/
-.l-grid-action{
-  grid-template-columns: 150px 1fr;
-}
 
 
 /******************************************
@@ -55,5 +51,22 @@ Side bar
     &__menu{
       cursor: pointer;
       fill: White;
+      margin-left: auto;
+      transition: .5s ease;
+      margin-right: 20px;
+      display: block;
+      margin-top: 10px;
+      transition-delay: .10s;
     }
+}
+
+
+/*///Modificadores de js ////*/
+.l-grid-action{
+  grid-template-columns: 150px 1fr;
+}
+
+
+.l-icon-panel{
+  transform: rotate(180deg);
 }

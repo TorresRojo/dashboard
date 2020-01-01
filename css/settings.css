@@ -18,12 +18,12 @@ ESTILOS BASE TIPOGRAFÍA | VARIABLES |
     --yellow: #ffcc00;
   }
 
-* {box-sizing: border-box;font-family: 'Poppins', sans-serif;}
+* {box-sizing: border-box;font-family: 'Cairo', sans-serif;}
 
 html {scroll-behavior: smooth;}
 body {margin: 0; padding: 0; }
 
-p, input, label, textarea{font-family: 'Poppins', sans-serif;}
+p, input, label, textarea{font-family: 'Cairo', sans-serif;}
 p{margin: 0;}
-li {list-style: none; font-family: 'Poppins', sans-serif;}
-a {text-decoration: none;font-family: 'Poppins', sans-serif; color: var(--white);}
+li {list-style: none; font-family: 'Cairo', sans-serif;}
+a {text-decoration: none;font-family: 'Cairo', sans-serif; color: var(--white);}

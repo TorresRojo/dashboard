@@ -17,7 +17,7 @@ Dashboard main
 }
 @media (max-width: 1024px) {
   .l-dashboard {
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 80px 1fr;
   }
 }
 .l-dashboard__head {
@@ -43,7 +43,7 @@ Dashboard main
   padding: 20px;
 }
 .l-dashboard__content .l-cards__item {
-  height: 80px;
+  height: 100px;
   width: calc(100% / 3);
 }
 .l-dashboard__content .l-cards__box {
@@ -61,6 +61,12 @@ Side bar
   grid-column: 1/2;
   grid-row: 1/4;
 }
+@media (max-width: 1024px) {
+  .l-sidebar .l-sidebar__menu,
+.l-sidebar .l-sidebar__profile {
+    display: none;
+  }
+}
 .l-sidebar__menu {
   cursor: pointer;
   fill: White;
@@ -70,11 +76,6 @@ Side bar
   display: block;
   margin-top: 10px;
   transition-delay: 0.1s;
-}
-@media (max-width: 1024px) {
-  .l-sidebar__menu {
-    display: none;
-  }
 }
 .l-sidebar__profile {
   margin-top: 10px;

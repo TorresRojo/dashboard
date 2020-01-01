@@ -28,7 +28,7 @@ Dashboard main
   height: 100vh;
   transition: 0.5s cubic-bezier(.68,-0.55,.27,1.55);
   @media (max-width: 1024px){
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 80px 1fr;
   }
     &__head{
       grid-column: 2 / 3;
@@ -53,7 +53,7 @@ Dashboard main
       padding: 20px;
       .l-cards{
         &__item{
-          height: 80px;
+          height: 100px;
           width: calc(100% / 3);
         }
         &__box{
@@ -77,6 +77,12 @@ Side bar
   background-color: $darkblue;
   grid-column: 1 / 2;
   grid-row: 1 / 4;
+  @media (max-width: 1024px){
+    .l-sidebar__menu,
+    .l-sidebar__profile{
+      display: none;
+    }
+  }
     &__menu{
       cursor: pointer;
       fill: White;
@@ -86,9 +92,6 @@ Side bar
       display: block;
       margin-top: 10px;
       transition-delay: .10s;
-      @media (max-width: 1024px){
-        display: none;
-      }
     }
     &__profile{
       margin-top: 10px;

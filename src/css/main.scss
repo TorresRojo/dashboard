@@ -1,12 +1,12 @@
 @import "settings.css";
 @import "utilidades.css";
 
-$darkblue: #192033;
+$darkblue: #141928;
 $middleblue: #242a40;
 $blue: #5179ff;
 $red: #ff6867;
 $yellow: #ffcc00;
-
+$lightblue: #7896ce;
 
 $radius: 7px;
 
@@ -70,7 +70,9 @@ Side bar
         object-fit: cover;
         border: 7px solid $middleblue;
       }
+    &__content{
 
+    }
     }
 }
 
@@ -79,7 +81,6 @@ Side bar
 .l-grid-action{
   grid-template-columns: 150px 1fr;
 }
-
 
 .l-icon-panel{
   transform: rotate(180deg);

@@ -103,6 +103,7 @@ ESTILOS DE IMÁGEN Y COLOR
 /*Color */
 .u-darkblue{color: var(--darkblue);}
 .u-middleblue{color: var(--middleblue);}
+.u-lightblue{color: var(--lightblue);}
 .u-blue{color: var(--blue);}
 .u-white{color: White;}
 .u-red{color: var(--red);}

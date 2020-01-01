@@ -11,11 +11,12 @@ ESTILOS BASE TIPOGRAFÍA | VARIABLES |
     --layout1170: 1170px;
     --layout990: 990px;
     --layout750: 750px;
-    --darkblue: #192033;
+    --darkblue: #141928;
     --middleblue: #242a40;
     --blue: #5179ff;
     --red: #ff6867;
     --yellow: #ffcc00;
+    --lightblue: #7896ce;
   }
 
 * {box-sizing: border-box;font-family: 'Cairo', sans-serif;}

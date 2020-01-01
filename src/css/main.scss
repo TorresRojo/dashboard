@@ -14,13 +14,20 @@ $yellow: #ffcc00;
   grid-template-columns: 310px 1fr;
   grid-template-rows: 10fr;
   height: 100vh;
-
+  transition: .5s ease-in-out;
 
 }
 
+.l-grid-action{
+  grid-template-columns: 150px 1fr;
+}
 
 .l-sidebar{
   width: 100%;
   background-color: $darkblue;
   grid-column-start: 1;
+    &__menu{
+      cursor: pointer;
+      fill: White;
+    }
 }

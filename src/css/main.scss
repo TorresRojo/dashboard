@@ -8,6 +8,8 @@ $red: #ff6867;
 $yellow: #ffcc00;
 
 
+$radius: 7px;
+
 /*****************************************
 Dashboard main
 ******************************************/
@@ -22,7 +24,7 @@ Dashboard main
       grid-row: 1 / 2;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-around;
       input{
         background-color: $darkblue;
         width: 60%;

@@ -101,17 +101,22 @@ ESTILOS DE IMÁGEN Y COLOR
 
 
 /*Color */
+.u-darkblue{color: var(--darkblue);}
+.u-middleblue{color: var(--middleblue);}
 .u-blue{color: var(--blue);}
 .u-white{color: White;}
-.u-greylight{color: var(--greylight);}
-.u-grey{color: var(--grey);}
+.u-red{color: var(--red);}
+.u-yellow{color: var(--yellow);}
 
 
 
 /*Background */
-.u-back-white{background-color: White;}
+.u-back-darkblue{background-color: var(--darkblue);}
+.u-back-middleblue{background-color: var(--middleblue);}
 .u-back-blue{background-color: var(--blue);}
-.u-back-greylight{background-color: var(--greylight);}
+.u-back-white{background-color: White;}
+.u-back-red{background-color: var(--red);}
+.u-back-yellow{background-color: var(--yellow);}
 
 
 

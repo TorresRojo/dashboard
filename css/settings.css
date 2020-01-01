@@ -11,13 +11,11 @@ ESTILOS BASE TIPOGRAFÍA | VARIABLES |
     --layout1170: 1170px;
     --layout990: 990px;
     --layout750: 750px;
-    --bluesolid: #323e48;
-    --blueaqua: #6fb3bc;
-    --white: #ffffff;
-    --grey: #e7e7e7;
-    --greymid: #959494;
-    --darkgrey: #666666;
-
+    --darkblue: #192033;
+    --middleblue: #242a40;
+    --blue: #5179ff;
+    --red: #ff6867;
+    --yellow: #ffcc00;
   }
 
 * {box-sizing: border-box;font-family: 'Poppins', sans-serif;}

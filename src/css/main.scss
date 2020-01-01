@@ -1,0 +1,26 @@
+@import "settings.css";
+@import "utilidades.css";
+
+$darkblue: #192033;
+$middleblue: #242a40;
+$blue: #5179ff;
+$red: #ff6867;
+$yellow: #ffcc00;
+
+
+
+.l-dashboard{
+  display: grid;
+  grid-template-columns: 310px 1fr;
+  grid-template-rows: 10fr;
+  height: 100vh;
+
+
+}
+
+
+.l-sidebar{
+  width: 100%;
+  background-color: $darkblue;
+  grid-column-start: 1;
+}

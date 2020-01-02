@@ -60,6 +60,7 @@ Side bar
   background-color: #141928;
   grid-column: 1/2;
   grid-row: 1/4;
+  position: relative;
 }
 .l-sidebar__menu {
   cursor: pointer;
@@ -72,7 +73,7 @@ Side bar
   transition-delay: 0.1s;
 }
 .l-sidebar__profile {
-  margin-top: 10px;
+  margin-top: 37px;
 }
 .l-sidebar__profile img {
   max-width: 100px;
@@ -83,6 +84,13 @@ Side bar
   margin: auto;
   object-fit: cover;
   border: 7px solid #242a40;
+}
+.l-sidebar__bottom {
+  background-color: #090f1a;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
 }
 @media (max-width: 1024px) {
   .l-sidebar .l-sidebar__menu,
@@ -97,7 +105,7 @@ Side bar
   }
 }
 .l-sidebar .l-content__item {
-  margin: 15px 0;
+  margin: 20px 0;
 }
 
 /*///Modificadores de js ////*/

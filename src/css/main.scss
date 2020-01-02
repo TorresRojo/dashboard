@@ -77,6 +77,7 @@ Side bar
   background-color: $darkblue;
   grid-column: 1 / 2;
   grid-row: 1 / 4;
+  position: relative;
     &__menu{
       cursor: pointer;
       fill: White;
@@ -88,7 +89,7 @@ Side bar
       transition-delay: .10s;
     }
     &__profile{
-      margin-top: 10px;
+      margin-top: 37px;
       img{
         max-width: 100px;
         width: 100%;
@@ -99,6 +100,13 @@ Side bar
         object-fit: cover;
         border: 7px solid $middleblue;
       }
+    }
+    &__bottom{
+      background-color: #090f1a;
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      height: 50px;
     }
     @media (max-width: 1024px){
       .l-sidebar__menu,
@@ -115,7 +123,7 @@ Side bar
       }
     }
     .l-content__item{
-      margin: 15px 0;
+      margin: 20px 0;
     }
 }
 

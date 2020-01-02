@@ -77,6 +77,11 @@ Dashboard main
           display: flex;
           justify-content: flex-start;
           max-width: 300px;
+          transition: 0.5s cubic-bezier(.55,.06,.68,.19);
+          cursor: pointer;
+          &:hover{
+            transform: scale(1.05);
+          }
           @media (max-width: 720px){
             max-width: 500px;
           }

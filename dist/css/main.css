@@ -74,6 +74,11 @@ Dashboard main
   display: flex;
   justify-content: flex-start;
   max-width: 300px;
+  transition: 0.5s cubic-bezier(0.55, 0.06, 0.68, 0.19);
+  cursor: pointer;
+}
+.l-dashboard__content .l-cards__box:hover {
+  transform: scale(1.05);
 }
 @media (max-width: 720px) {
   .l-dashboard__content .l-cards__box {

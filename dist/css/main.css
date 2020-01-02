@@ -160,7 +160,7 @@ Side bar
   bottom: 0;
   height: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 0 20px;
   align-items: center;
 }

@@ -63,7 +63,6 @@ Dashboard main
 }
 @media (max-width: 720px) {
   .l-dashboard__content .l-cards__item {
-    max-width: 250px;
     width: 100%;
     margin: 10px 0;
   }
@@ -75,6 +74,11 @@ Dashboard main
   display: flex;
   justify-content: flex-start;
   max-width: 300px;
+}
+@media (max-width: 720px) {
+  .l-dashboard__content .l-cards__box {
+    max-width: 500px;
+  }
 }
 .l-dashboard__content .l-cards__pic {
   width: 50px;

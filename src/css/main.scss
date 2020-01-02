@@ -65,7 +65,6 @@ Dashboard main
           height: 100px;
           width: calc(100% / 3);
           @media (max-width: 720px){
-            max-width: 250px;
             width: 100%;
             margin: 10px 0;
           }
@@ -78,6 +77,9 @@ Dashboard main
           display: flex;
           justify-content: flex-start;
           max-width: 300px;
+          @media (max-width: 720px){
+            max-width: 500px;
+          }
         }
         &__pic{
           width: 50px;

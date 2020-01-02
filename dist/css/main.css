@@ -1,6 +1,6 @@
 @import "settings.css";
 @import "utilidades.css";
-.e-card, .l-dashboard__content .l-cards__box {
+.e-card, .l-dashboard__table .l-table__head, .l-dashboard__content .l-cards__box {
   border-radius: 7px;
   background-color: #141928;
 }
@@ -28,6 +28,11 @@ Dashboard main
   justify-content: space-around;
   padding: 0 20px;
 }
+@media (max-width: 720px) {
+  .l-dashboard__head {
+    grid-column: 1/3;
+  }
+}
 .l-dashboard__head input {
   background-color: #141928;
   width: 60%;
@@ -42,9 +47,26 @@ Dashboard main
   grid-row: 2/4;
   padding: 20px;
 }
+@media (max-width: 720px) {
+  .l-dashboard__content {
+    grid-column: 1/3;
+  }
+}
+@media (max-width: 720px) {
+  .l-dashboard__content .l-cards {
+    justify-content: center;
+  }
+}
 .l-dashboard__content .l-cards__item {
   height: 100px;
   width: calc(100% / 3);
+}
+@media (max-width: 720px) {
+  .l-dashboard__content .l-cards__item {
+    max-width: 250px;
+    width: 100%;
+    margin: 10px 0;
+  }
 }
 .l-dashboard__content .l-cards__box {
   width: 90%;
@@ -52,10 +74,40 @@ Dashboard main
   height: 100%;
   display: flex;
   justify-content: flex-start;
+  max-width: 300px;
 }
 .l-dashboard__content .l-cards__pic {
   width: 50px;
   height: auto;
+}
+.l-dashboard__table {
+  width: 100%;
+  padding-top: 20px;
+}
+.l-dashboard__table .l-table {
+  width: 100%;
+}
+.l-dashboard__table .l-table__head {
+  display: flex;
+}
+.l-dashboard__table .l-table__head p {
+  color: White;
+  font-weight: 700;
+}
+.l-dashboard__table .l-table__content {
+  display: flex;
+}
+.l-dashboard__table .l-table__content .l-table__cell {
+  background-color: unset !important;
+  color: White;
+}
+.l-dashboard__table .l-table__cell {
+  width: calc(100% / 5);
+  display: flex;
+  padding: 0 20px;
+  justify-content: center;
+  border: 1px solid #141928;
+  background-color: #141928;
 }
 
 /******************************************
@@ -67,6 +119,11 @@ Side bar
   grid-column: 1/2;
   grid-row: 1/4;
   position: relative;
+}
+@media (max-width: 720px) {
+  .l-sidebar {
+    display: none;
+  }
 }
 .l-sidebar__menu {
   cursor: pointer;

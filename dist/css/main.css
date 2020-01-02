@@ -95,6 +95,9 @@ Side bar
     border: 4px solid #242a40;
   }
 }
+.l-sidebar .l-content__item {
+  margin: 10px 0;
+}
 
 /*///Modificadores de js ////*/
 .l-grid-action {
@@ -103,6 +106,10 @@ Side bar
 
 .l-icon-panel {
   transform: rotate(180deg);
+}
+
+.l-fix-flex {
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */

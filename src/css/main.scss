@@ -105,6 +105,7 @@ Dashboard main
           .l-table__cell{
             color: White;
             border: 1px solid $middleblue;
+            padding: 5px 0;
           }
         }
         &__cell{
@@ -164,6 +165,15 @@ Side bar
       width: 100%;
       bottom: 0;
       height: 50px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+      align-items: center;
+      @media (max-width: 1024px){
+        .l-legal{
+          display: none;
+        }
+      }
     }
     @media (max-width: 1024px){
       .l-sidebar__menu,

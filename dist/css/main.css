@@ -50,6 +50,12 @@ Dashboard main
   width: 90%;
   margin: auto;
   height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.l-dashboard__content .l-cards__pic {
+  width: 50px;
+  height: auto;
 }
 
 /******************************************

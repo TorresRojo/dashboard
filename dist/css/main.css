@@ -86,17 +86,18 @@ Side bar
 }
 @media (max-width: 1024px) {
   .l-sidebar .l-sidebar__menu,
-.l-sidebar .l-profile__data {
+.l-sidebar .l-profile__data,
+.l-sidebar .l-item__description {
     display: none;
   }
-  .l-sidebar img {
+  .l-sidebar .l-sidebar__profile img {
     width: 70px;
     height: 70px;
     border: 4px solid #242a40;
   }
 }
 .l-sidebar .l-content__item {
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 /*///Modificadores de js ////*/

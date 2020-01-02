@@ -102,17 +102,20 @@ Side bar
     }
     @media (max-width: 1024px){
       .l-sidebar__menu,
-      .l-profile__data{
+      .l-profile__data,
+      .l-item__description{
         display: none;
       }
-      img{
-        width: 70px;
-        height: 70px;
-        border: 4px solid #242a40;
+      .l-sidebar__profile{
+        img{
+         width: 70px;
+         height: 70px;
+         border: 4px solid #242a40;
+       }
       }
     }
     .l-content__item{
-      margin: 10px 0;
+      margin: 15px 0;
     }
 }
 

@@ -5,6 +5,8 @@ var fire = document.getElementById('leftSide');
 var iconRotate = document.getElementById('iconPanel');
 var panelHide = document.getElementsByClassName('l-item__description');
 var boxPanel = document.getElementsByClassName('l-content__item');
+var bottomFlex = document.getElementById('bottomPanel')
+
 
 function navToogle() {
   sideWidth.classList.toggle("l-grid-action");

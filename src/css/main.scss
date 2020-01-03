@@ -77,8 +77,9 @@ Dashboard main
           display: flex;
           justify-content: flex-start;
           max-width: 300px;
-          transition: 0.5s cubic-bezier(.55,.06,.68,.19);
+          transition: 0.3s cubic-bezier(.55,.06,.68,.19);
           cursor: pointer;
+          box-shadow: 1px 1px 4px #000000;
           &:hover{
             transform: scale(1.05);
           }
@@ -170,10 +171,9 @@ Side bar
       width: 100%;
       bottom: 0;
       height: 50px;
-      display: flex;
-      justify-content: flex-end;
-      padding: 0 20px;
+      padding: 0 20px !important;
       align-items: center;
+      margin: auto !important;
       @media (max-width: 1024px){
         .l-legal{
           display: none;

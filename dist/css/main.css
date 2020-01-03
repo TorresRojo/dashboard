@@ -32,12 +32,19 @@ Dashboard main
   .l-dashboard__head {
     grid-column: 1/3;
   }
+}
+@media (max-width: 720px) {
   .l-dashboard__head #navMenu {
     display: block;
   }
 }
 @media (min-width: 721px) {
   .l-dashboard__head #navMenu {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .l-dashboard__head .u-info {
     display: none;
   }
 }
@@ -144,10 +151,26 @@ Side bar
   grid-column: 1/2;
   grid-row: 1/4;
   position: relative;
+  z-index: 9999;
+  box-shadow: 1px 1px 5px;
 }
 @media (max-width: 720px) {
   .l-sidebar {
     display: none;
+  }
+}
+.l-sidebar #iconClose {
+  margin: auto;
+  padding-top: 20px;
+}
+@media (min-width: 721px) {
+  .l-sidebar #iconClose {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .l-sidebar #iconClose {
+    display: block;
   }
 }
 .l-sidebar__menu {
@@ -224,6 +247,7 @@ Side bar
 .u-full-menu {
   width: 100%;
   display: block;
+  height: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

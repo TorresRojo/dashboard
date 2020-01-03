@@ -1,4 +1,4 @@
-
+//Sidebar Actions
 
 var sideWidth = document.getElementById('dash');
 var fire = document.getElementById('leftSide');
@@ -25,14 +25,23 @@ function navToogle() {
 }
 
 
-fire.addEventListener("click", navToogle);
+iconRotate.addEventListener("click", navToogle);
 
-
+//Active Menu
 var openMenu = document.getElementById('navMenu');
-
 
 function menuBlock() {
   fire.classList.toggle("u-full-menu");
 }
 
 openMenu.addEventListener('click', menuBlock);
+
+
+//Close Menu
+var closeMenu = document.getElementById('iconClose');
+
+function menuHide() {
+  fire.classList.toggle("u-full-menu");
+}
+
+closeMenu.addEventListener('click', menuHide);

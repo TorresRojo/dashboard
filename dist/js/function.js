@@ -25,4 +25,14 @@ function navToogle() {
 }
 
 
-fire.addEventListener("click", navToogle)
+fire.addEventListener("click", navToogle);
+
+
+var openMenu = document.getElementById('navMenu');
+
+
+function menuBlock() {
+  fire.classList.toggle("u-full-menu");
+}
+
+openMenu.addEventListener('click', menuBlock);

@@ -21,7 +21,7 @@ UTILIDADES DINÁMICAS
 //////////////////////////////////////////////////*/
 .u-hide {display: none;}
 .u-height{height: auto;}
-.u-block{display: block;}
+.u-block{display: block !important;}
 .u-relative{position: relative;}
 .u-absolute{position: absolute;}
 .u-absolute-center{position: absolute; margin: auto; left: 0; right: 0;}
